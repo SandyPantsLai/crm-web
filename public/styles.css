@@ -10,7 +10,11 @@ footer p {
   font-weight: bold;
 }
 
+.menu {
+  list-style: disc;
+}
+
 .menu li {
-  list-style: square;
-  display: inline;
+  display: inline-block;
+  width: 200px;
 }
