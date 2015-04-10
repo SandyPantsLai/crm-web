@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CRM</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="app-name">My CRM</h1>
+    </header>
+    <nav class="menu">
+      <ul>
+        <li class="highlight"><a href="/contacts/new">Add a contact</a></li>
+        <li>View contacts</li>
+        <li>Edit contact</li>
+        <li>Delete contact</li>
+        <li>Browse contacts by attribute</li>
+      </ul>
+    </nav>
+    <%= yield %>
+    <footer>
+      <p>Thanks for using My CRM!</p>
+    </footer>
+  </body>
+</html>

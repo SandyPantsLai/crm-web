@@ -1,0 +1,16 @@
+.app-name {
+  color: #FF3030;
+}
+
+.highlight {
+  color: #ffcc00;
+}
+
+footer p {
+  font-weight: bold;
+}
+
+.menu li {
+  list-style: square;
+  display: inline;
+}
